@@ -1,0 +1,122 @@
+{
+  "id": "accordion1",
+  "panels": [
+    {
+      "id": "panel1",
+      "city": "London",
+      "country": "United Kingdom",
+      "numHotels": "898",
+      "content": [
+        {
+          "listPrice": "£232",
+          "offerPrice": "£192",
+          "stars": "4",
+          "text": "The May Fair"
+        },
+        {
+          "listPrice": "£78",
+          "offerPrice": "",
+          "stars": "3",
+          "text": "Grand Plaza Serviced Apartments"
+        },
+        {
+          "listPrice": "£64",
+          "offerPrice": "£61",
+          "stars": "4",
+          "text": "Lancaster Gate Hotel"
+        },
+        {
+          "listPrice": "£102",
+          "offerPrice": "",
+          "stars": "2",
+          "text": "Radisson Edwardian Grafton Hotel"
+        },
+        {
+          "listPrice": "£122",
+          "offerPrice": "£112",
+          "stars": "3",
+          "text": "The Rembrandt"
+        }
+      ],
+      "expanded": true
+    },
+    {
+      "id": "panel2",
+      "city": "New York",
+      "country": "United States",
+      "numHotels": "575",
+      "content": [
+        {
+          "listPrice": "£154",
+          "offerPrice": "",
+          "stars": "2",
+          "text": "The Waldorf Astoria"
+        },
+        {
+          "listPrice": "£121",
+          "offerPrice": "£89",
+          "stars": "5",
+          "text": "Park Central New York Hotel"
+        },
+        {
+          "listPrice": "£74",
+          "offerPrice": "",
+          "stars": "4",
+          "text": "Hilton Garden Inn New York/West 35th Street"
+        },
+        {
+          "listPrice": "£147",
+          "offerPrice": "",
+          "stars": "3",
+          "text": "Hilton New York"
+        },
+        {
+          "listPrice": "£60",
+          "offerPrice": "",
+          "stars": "4",
+          "text": "Hotel Pennsylvania"
+        }
+      ],
+      "expanded": false
+    },
+    {
+      "id": "panel3",
+      "city": "Paris",
+      "country": "France",
+      "numHotels": "1721",
+      "content": [
+        {
+          "listPrice": "£285",
+          "offerPrice": "",
+          "stars": "5",
+          "text": "Sofitel Paris Le Faubourg"
+        },
+        {
+          "listPrice": "£168",
+          "offerPrice": "",
+          "stars": "4",
+          "text": "Pullman Paris Tour Eiffel"
+        },
+        {
+          "listPrice": "£192",
+          "offerPrice": "",
+          "stars": "3",
+          "text": "Champs Elysees Mac Mahon"
+        },
+        {
+          "listPrice": "£159",
+          "offerPrice": "",
+          "stars": "2",
+          "text": "Hotel Regina"
+        },
+        {
+          "listPrice": "£283",
+          "offerPrice": "",
+          "stars": "4",
+          "text": "Hotel Pershing Hall Paris"
+        }
+      ],
+      "expanded": false
+    }
+  ]
+}
