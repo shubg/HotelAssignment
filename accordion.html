@@ -1,5 +1,5 @@
 <div class="h-red-border-bottom h-font-large">
- <span> <b > Top Destinations </b></span>
+ <span class="heading"> <b > Top Destinations </b></span>
 </div>
 <ul id="<%- obj.id %>" class="accordion">
     <%/* {{#each panels}} */ (function (_parentContext) { _.each(obj.panels, function (obj, _keyOrIndex) { %>
@@ -16,10 +16,10 @@
                   <div class="accordion--details" href="#null"><%- obj.stars %> <img src="../images/star.png"></img> From <span class="<% if (obj.offerPrice) { %> accordion--listPrice<% }else { %> accordion--offerPrice <% }%>"><%- obj.listPrice %> </span><span class="accordion--offerPrice"><%- obj.offerPrice %></span></div>
               </div>
               <% }); %>
-              <div class="accordion--text" href="#null"><b> See all <%- obj.numHotels %> hotels in <%- obj.city %></b> <img src="../images/icon_arrow_right.png"></img></div>
+              <a class="accordion--text" href="#null"><b> See all <%- obj.numHotels %> hotels in <%- obj.city %></b> <img src="../images/icon_arrow_right.png"></img></a>
             <%}%>
         </section>
     </li>
     <% }); })(obj); %>
-        <div class="accordion--more"><b>See all of our destination offers </b><img src="../images/icon_arrow_right.png"></img></div>
+        <a class="accordion--more" href="#null"><b>See all of our destination offers </b><img src="../images/icon_arrow_right.png"></img></a>
 </ul><!-- /.accordion -->

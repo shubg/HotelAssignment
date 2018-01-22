@@ -1,3 +1,8 @@
+body {
+  font-family: arial,helvetica,sans-serif;
+  color: #4f5256;
+}
+
 .h-margin-standard {
     margin: 20px;
 }
@@ -14,12 +19,23 @@
     color: gray;
 }
 
+.h-color-grayDarkest {
+  color: #4f5256;
+}
+
 #hotelsData {
   width: 660px;
 }
 
 .h-red-border-bottom {
-  border-bottom: 2px solid red;
+  border-bottom: 4px solid red;
+}
+
+.heading {
+  position: relative;
+  top: 10px;
+  background: #fff;
+  padding-right: 5px;
 }
 
 .accordion {
@@ -41,14 +57,14 @@
   height: 50px;
   text-decoration: none;
   user-select: none;
-  background-color: #a7ddef;
+  background-color: #DAE9F3;
 }
 
 .accordion--title {
   padding-top: 5px;
   font-size: 18px;
   font-weight: 700;
-  color: #026dc5;
+  color: #4890BD;
 }
 
 .accordion .is-active .accordion--content {
@@ -71,11 +87,12 @@
 }
 
 .accordion--row {
-  border-bottom: 1px solid #a7ddef;
+  border-bottom: 1px solid #DAE9F3;
 }
 
 .accordion--text {
-  color: #026dc5;
+  color: 	#4890BD;
+  text-decoration: none;
   margin-left: 30px;
 }
 
@@ -93,6 +110,7 @@
 }
 
 .accordion--more {
-  color: #026dc5;
+  color: #4890BD;
   float: right;
+  text-decoration: none;
 }
